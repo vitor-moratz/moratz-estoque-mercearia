@@ -26,4 +26,4 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, p
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](https://github.com/vitor-moratz).
