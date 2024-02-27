@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    color: #FFF;
+}
+
+.login-container {
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #FFF;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.input-fild:hover, .input-field:focus {
+    border-color: #ffffff
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login-button, .register-button {
+    flex: 1;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.login-button {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #000;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin-left: 5px;
+}
+
+.login-button:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.register-button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin-right: 5px;
+}
+
+.register-button:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-color: #000;
+}
+
+.soon-container {
+    margin-top: 15px;
+    background-color: #dad7d7;
+    border-radius: 8px;
+}
+
+#span {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 11px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#span:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 600px) {
+    .login-container {
+        width: 90%;
+    }
+}
