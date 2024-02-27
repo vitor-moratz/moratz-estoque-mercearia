@@ -46,7 +46,6 @@ body {
 
 .button-container-login {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -73,12 +72,10 @@ body {
     border: 1px solid #000;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     width: 50%;
-    margin-right: 50%;
 }
 
 .esqueceu {
     color: #ffffff;
-    margin-left: 50%;
 }
 
 .login-button:hover {
