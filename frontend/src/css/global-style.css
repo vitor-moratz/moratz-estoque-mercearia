@@ -58,12 +58,17 @@ body {
 }
 
 .login-button, .register-button {
+    font-size: 14px;
     padding: 12px;
     box-sizing: border-box;
     border: none;
     border-radius: 2px;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
 }
 
 .login-button {
