@@ -23,7 +23,7 @@ body {
 }
 
 .login-form {
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -96,12 +96,6 @@ body {
     background-color: #ffffff;
     color: #000;
     border-color: #000;
-}
-
-.soon-container {
-    margin-top: 15px;
-    background-color: #dad7d7;
-    border-radius: 8px;
 }
 
 #span {
